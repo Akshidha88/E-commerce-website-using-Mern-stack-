@@ -1,0 +1,39 @@
+html {
+  scroll-behavior: smooth; /* Smooth scrolling */
+} 
+  .about-us {
+    padding: 2rem;
+    background-color: black;
+    text-align: center;
+    color:white;
+    height:30vh;
+    font-size: 1.5rem;
+  }
+  
+  .about-us h2 {
+    margin-bottom: 1rem;
+  }
+  
+  footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  .contact-btn {
+    padding: 10px 20px; /* Size of the button */
+    font-size: 16px; /* Font size */
+    background-color: black; /* White background */
+    border: 2px solid red; /* Red border */
+    color: red; /* Red text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition */
+    border-radius:8px;
+  }
+  
+  .contact-btn:hover {
+    box-shadow: 0 0 15px 5px red; /* Red glow effect */
+    transform: scale(1.1); /* Slightly grow the button */
+  }
+  
+  
